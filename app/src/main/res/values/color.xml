@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_write">#ffffffff</color>
+    <color name="color_gray">#ff808080</color>
+    <color name="color_green">#ff00ff00</color>
+</resources>

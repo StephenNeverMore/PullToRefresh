@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center|bottom"
+    android:orientation="horizontal">
+
+    <com.stephen.helloworld.views.pullrefresh.FirstView
+        android:id="@+id/header_fv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp" />
+
+    <com.stephen.helloworld.views.pullrefresh.SecondView
+        android:id="@+id/header_sv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+
+    <com.stephen.helloworld.views.pullrefresh.ThirdView
+        android:id="@+id/header_tv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/header_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/pulltorefresh" />
+</LinearLayout>
